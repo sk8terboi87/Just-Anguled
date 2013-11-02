@@ -29,13 +29,13 @@ Upcoming
 
 TODO
 ---------------------------
-## Layout
+### Layout
 * Today - Timeline graph
 * All - Internal Two boxes - Pie Chart + information + statistics + pagination
 
-## Timeline Plugin
+#### Timeline Plugin
 
 
-## PieChart Plugin
+#### PieChart Plugin
 
-## Activity Plugin
+#### Activity Plugin
