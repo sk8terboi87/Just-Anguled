@@ -1,0 +1,25 @@
+{
+  "name": "Trackr",
+  "title": "AngularJs Trackr UI!",
+  "description": "Using AngularJs to display time track information in a chart/graph",
+  "version": "0.0.1",
+  "homepage": "https://github.com/sk8terboi87/trackr-ui.git",
+  "author": {
+    "name": "Sk8terboi87",
+    "url": "http://code-like-a-poem.blogspot.in"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sk8terboi87/trackr-ui.git"
+  },
+  "bugs": "https://github.com/sk8terboi87/trackr-ui/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": ".."
+    }
+  ],
+  "dependencies": {
+  },
+  "keywords": ["angularjs", "chartjs", "time tracker"]
+}
