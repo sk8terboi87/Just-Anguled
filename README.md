@@ -26,3 +26,16 @@ Upcoming
 - Bubble Chart for weekly
 - Weekly report
 - Polar Chart: For technologies used
+
+TODO
+---------------------------
+## Layout
+* Today - Timeline graph
+* All - Internal Two boxes - Pie Chart + information + statistics + pagination
+
+## Timeline Plugin
+
+
+## PieChart Plugin
+
+## Activity Plugin
