@@ -45,6 +45,9 @@ module.exports = function(grunt) {
       compile: {
         files: {
           'app/scripts/kickstart.js': 'coffee/kickstart.coffee',
+          'app/scripts/controllers/ChartsController.js': 'coffee/controllers/ChartsController.coffee',
+          'app/scripts/directives/timelineDirective.js': 'coffee/directives/timelineDirective.coffee',
+          'app/scripts/directives/piechartDirective.js': 'coffee/directives/piechartDirective.coffee'
         },
         options: {
           basePath: 'app/scripts',
@@ -56,6 +59,9 @@ module.exports = function(grunt) {
       compile: {
         files: {
           "app/index.html": "jade/index.jade",
+          "app/views/charts/index.html": "jade/views/charts/index.jade",
+          "app/views/directives/timeline-directive.html": "jade/directives/timeline-directive.jade",
+          "app/views/directives/piechart-directive.html": "jade/directives/piechart-directive.jade"
         }
       },
       options: {
