@@ -1,0 +1,15 @@
+ol.breadcrumb
+  li
+    a(ng-href='#/') Home
+  li.active Charts
+
+h2.page-header Charts
+h4 1) Pie Chart
+  small  Using dx.chartjs
+  div
+    trackr-piechart(title='pie.title', data='pie.data')
+hr
+
+h4 2) Line Chart
+  div
+    trackr-timeline(title='timeline.title', data='timeline.data')
