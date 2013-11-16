@@ -1,0 +1,17 @@
+{
+  "name": "Just-Anguled",
+  "version": "0.0.1",
+  "homepage": "https://github.com/sk8terboi87/Just-Anguled",
+  "description": "AngularJs Components",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "noty": "~2.1.2"
+  }
+}
