@@ -5,7 +5,7 @@
   # PIEchart CHART
   $scope.piechartData= () =>
     piechart = {
-      title: 'This is Piechart Char (duh!)'
+      title: 'This is Piechart Chart (duh!)'
       data: [
           region: "Asia"
           val: 4119626293
