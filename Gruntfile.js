@@ -47,9 +47,11 @@ module.exports = function(grunt) {
           'app/scripts/kickstart.js': 'coffee/kickstart.coffee',
           'app/scripts/controllers/PagesController.js': 'coffee/controllers/PagesController.coffee',
           'app/scripts/controllers/ChartsController.js': 'coffee/controllers/ChartsController.coffee',
+          'app/scripts/controllers/NotificationController.js': 'coffee/controllers/NotificationController.coffee',
           'app/scripts/directives/timelineDirective.js': 'coffee/directives/timelineDirective.coffee',
           'app/scripts/directives/linechartDirective.js': 'coffee/directives/linechartDirective.coffee',
-          'app/scripts/directives/piechartDirective.js': 'coffee/directives/piechartDirective.coffee'
+          'app/scripts/directives/piechartDirective.js': 'coffee/directives/piechartDirective.coffee',
+          'app/scripts/directives/notificationDirective.js': 'coffee/directives/notificationDirective.coffee'
         },
         options: {
           basePath: 'app/scripts',
@@ -62,10 +64,12 @@ module.exports = function(grunt) {
         files: {
           "app/index.html": "jade/index.jade",
           "app/views/pages/index.html": "jade/views/pages/index.jade",
+          "app/views/notify/index.html": "jade/views/notify/index.jade",
           "app/views/charts/index.html": "jade/views/charts/index.jade",
           "app/views/directives/timeline-directive.html": "jade/directives/timeline-directive.jade",
           "app/views/directives/linechart-directive.html": "jade/directives/linechart-directive.jade",
-          "app/views/directives/piechart-directive.html": "jade/directives/piechart-directive.jade"
+          "app/views/directives/piechart-directive.html": "jade/directives/piechart-directive.jade",
+          "app/views/directives/notification-directive.html": "jade/directives/notification-directive.jade"
         }
       },
       options: {

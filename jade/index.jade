@@ -5,7 +5,11 @@ head
     include includes/meta
     include includes/styles
   body(ng-app='trackr')
-    include includes/menus
-    .container.container-body
-      div(ng-view)
-    include includes/scripts
+    div(ng-controller='wrapperController')
+        include includes/menus
+        div.container.container-body
+            div(ng-view)
+            include includes/scripts
+            trackr-notification(
+                uuid='notify.uuid', message='notify.message', type='notify.type', timeout='notify.timeout'
+            )
