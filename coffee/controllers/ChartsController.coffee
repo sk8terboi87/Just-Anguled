@@ -22,7 +22,7 @@
   # LINE CHART With Custom Data
   $scope.linechartData = () =>
     linechart = {
-      title: 'Hey',
+      title: 'I am Line Chart ^__^',
       data: [
         country: "Australia"
         gold: 14
