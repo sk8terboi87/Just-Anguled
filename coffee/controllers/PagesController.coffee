@@ -1,0 +1,3 @@
+@trackr.controller('PagesController', ($scope) ->
+
+)
