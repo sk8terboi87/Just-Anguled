@@ -47,6 +47,7 @@ module.exports = function(grunt) {
           'app/scripts/kickstart.js': 'coffee/kickstart.coffee',
           'app/scripts/controllers/ChartsController.js': 'coffee/controllers/ChartsController.coffee',
           'app/scripts/directives/timelineDirective.js': 'coffee/directives/timelineDirective.coffee',
+          'app/scripts/directives/linechartDirective.js': 'coffee/directives/linechartDirective.coffee',
           'app/scripts/directives/piechartDirective.js': 'coffee/directives/piechartDirective.coffee'
         },
         options: {
@@ -61,6 +62,7 @@ module.exports = function(grunt) {
           "app/index.html": "jade/index.jade",
           "app/views/charts/index.html": "jade/views/charts/index.jade",
           "app/views/directives/timeline-directive.html": "jade/directives/timeline-directive.jade",
+          "app/views/directives/linechart-directive.html": "jade/directives/linechart-directive.jade",
           "app/views/directives/piechart-directive.html": "jade/directives/piechart-directive.jade"
         }
       },

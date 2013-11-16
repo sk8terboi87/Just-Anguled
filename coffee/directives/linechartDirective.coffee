@@ -1,10 +1,23 @@
-@chartModule.directive('trackrLinechart', (dateFilter, $timeout) ->
+@chartModule.directive('trackrLine', (dateFilter, $timeout) ->
         restrict: 'E'
         scope:
             title: '=title',
-            data: '=data'
+            data: '=data',
         link: (scope, element, attrs) ->
+
+            # For digest to occur
+            scope.$watch("title", (title) ->
+                chartContainer.dxChart
+                    title: title
+            )
+
             chartContainer = element.find('#chartContainer')
+            getTitle = () ->
+                scope.title
+
+            getData = () ->
+                scope.data
+
             chartContainer.dxChart
                 rotated: true
                 series: [
@@ -25,7 +38,7 @@
                     type: "stackedbar"
                     selectionStyle:
                         hatching: "left"
-                dataSource: scope.data
-                title: scope.title
+                dataSource: getData()
+                title: getTitle()
         templateUrl: 'views/directives/linechart-directive.html'
     )

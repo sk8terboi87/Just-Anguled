@@ -4,10 +4,12 @@ ol.breadcrumb
   li.active Charts
 
 h4 1) Pie Chart
-    trackr-piechart(title='pie.title', data='pie.data')
+    trackr-piechart(title='piechart.title', data='piechart.data')
 
 hr
 
 h4 2) Line Chart
+  div(style='padding-top:20px')
+    input.form-control(ng-model='linechart.title') Title
   div
-    trackr-timeline(title='timeline.title', data='timeline.data')
+    trackr-line(title='linechart.title', data='linechart.data', update='update')
